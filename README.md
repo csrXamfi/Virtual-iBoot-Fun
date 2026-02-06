@@ -25,7 +25,7 @@ irecovery -c go
 ## Patches 
 For patches via bspatch, use img4tool
 
-Use these two simple commands: 
+Use these three simple commands: 
 ```term
 img4tool -e -o example.vma2.RELEASE.patched.bin example.vma2.RELEASE.patched.im4p # im4p -> bin <- this bin patch
 img4tool -c example.vma2.RELEASE.patched.im4p -t ibss/ibec -d "iBoot-7429.41.5" example.vma2.RELEASE.patched.bin # create im4p
